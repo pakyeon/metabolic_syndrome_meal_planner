@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Local data & outputs
+metabolic_health.sqlite
+meal_plans/
+
+# Environment / editor configs
+.env
+.DS_Store
+.idea/
+.vscode/
