@@ -1,2 +1,1 @@
-# Tests package for metabolic_counselor.
-
+# Tests package for meal_plan.

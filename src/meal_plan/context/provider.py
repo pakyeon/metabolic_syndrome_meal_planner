@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import List, Optional
 
-from metabolic_counselor.data import PatientDatabase
+from meal_plan.data import PatientDatabase
 
 
 class PatientContextProvider:
@@ -143,4 +143,3 @@ class PatientSession:
 
 
 __all__ = ["PatientContextProvider", "PatientSession"]
-

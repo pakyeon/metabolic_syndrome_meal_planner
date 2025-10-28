@@ -49,10 +49,10 @@ MAX_CHUNK_DAYS = _resolve_chunk_days()
 from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_openai import ChatOpenAI
 
-from metabolic_counselor.agents import MealPlanAgent, MealPlanResult
-from metabolic_counselor.context import PatientContextProvider
-from metabolic_counselor.data import PatientDatabase
-from metabolic_counselor.services import (
+from meal_plan.agents import MealPlanAgent, MealPlanResult
+from meal_plan.context import PatientContextProvider
+from meal_plan.data import PatientDatabase
+from meal_plan.services import (
     CounselorProfile,
     MealPlanRequest,
     RequestNormalizer,

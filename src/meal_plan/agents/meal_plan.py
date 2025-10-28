@@ -11,7 +11,7 @@ from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage
 from langgraph.graph import END, START, StateGraph
 
-from metabolic_counselor.services import MealPlanRequest, RevisionInstruction
+from meal_plan.services import MealPlanRequest, RevisionInstruction
 
 SYSTEM_PROMPT = dedent(
     """

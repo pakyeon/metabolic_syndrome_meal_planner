@@ -118,11 +118,11 @@ def _ensure_stubbed_dependencies():
 
 _ensure_stubbed_dependencies()
 
-from metabolic_counselor.agents import MealPlanAgent
-from metabolic_counselor.cli.counselor import OfflinePlanModel
-from metabolic_counselor.context import PatientContextProvider
-from metabolic_counselor.data import PatientDatabase
-from metabolic_counselor.services import (
+from meal_plan.agents import MealPlanAgent
+from meal_plan.cli.counselor import OfflinePlanModel
+from meal_plan.context import PatientContextProvider
+from meal_plan.data import PatientDatabase
+from meal_plan.services import (
     CounselorProfile,
     MealPlanRequest,
     RequestNormalizer,
